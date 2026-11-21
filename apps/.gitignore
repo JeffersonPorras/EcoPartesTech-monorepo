@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Compilaciones y caché
+dist/
+**/dist/
+build/
+.vite/
+
+# Variables de entorno (contraseñas y URLs privadas)
+.env
+**/.env
+.env.local
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
