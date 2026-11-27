@@ -1,11 +1,12 @@
-import React from 'react';
-import { HealthPanel } from './HealthPanel';
+import { LoginView } from './components/LoginView/LoginView';
 
-function App() {
+export function App() {
   return (
-    <div>
-      <HealthPanel />
-    </div>
+    <LoginView
+      onLoginSuccess={(user) => {
+        console.log('Usuario autenticado:', user);
+      }}
+    />
   );
 }
 
